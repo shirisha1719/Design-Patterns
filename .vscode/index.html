@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Singleton Pattern Demo</title>
+
+    <!-- Connect external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Singleton Pattern Demo</h1>
+
+        <p class="description">
+            Singleton ensures that only one instance exists
+            and the same instance is reused.
+        </p>
+
+        <div class="buttons">
+            <button onclick="createLogger()">
+                Create Logger Instance
+            </button>
+
+            <button onclick="logMessage()">
+                Add Log Message
+            </button>
+        </div>
+
+        <div class="log-box" id="output">
+            <b>Logger Output:</b>
+            <p>Click a button to start.</p>
+        </div>
+
+    </div>
+
+    <!-- Connect external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
